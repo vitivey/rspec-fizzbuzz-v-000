@@ -4,12 +4,12 @@
 
 def fizzbuzz(number)
   #binding.pry
-  if number % 3 == 0
+  if (number % 3 == 0 && number % 5 == 0)
+    then "FizzBuzz"
+  elsif number % 3 == 0
     then "Fizz"
   elsif number % 5 == 0
     then "Buzz"
-  elsif (number % 3 == 0 && number % 5 == 0)
-    then "FizzBuzz"
   else
     nil
   end
