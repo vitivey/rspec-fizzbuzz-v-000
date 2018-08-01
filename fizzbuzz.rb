@@ -9,7 +9,7 @@ def fizzbuzz(number)
   elsif number == 5
     then "Buzz"
   elsif number == 15
-    then return "FizzBuzz"
+    then "FizzBuzz"
   else
     nil
   end
