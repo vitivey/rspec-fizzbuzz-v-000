@@ -4,11 +4,11 @@
 
 def fizzbuzz(number)
   #binding.pry
-  if number == 3
+  if number % 3 == 0
     then "Fizz"
-  elsif number == 5
+  elsif number % 5 == 0
     then "Buzz"
-  elsif number == 15
+  elsif ((number % 3) && (number % 5))  == 0
     then "FizzBuzz"
   else
     nil
