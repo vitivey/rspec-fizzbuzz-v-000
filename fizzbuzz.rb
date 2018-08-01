@@ -4,7 +4,11 @@
 
 def fizzbuzz(number)
   #binding.pry
-
-  print "20"
-
+  if number==3
+    then "Fizz"
+  elsif number==5
+    then "Buzz"
+  elsif number==15
+    then "FizzBuzz"
+  else number
 end
