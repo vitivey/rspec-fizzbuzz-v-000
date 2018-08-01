@@ -10,6 +10,6 @@ def fizzbuzz(number)
     then puts "Buzz"
   elsif number == 15
     then puts "FizzBuzz"
-  else 
+  else
     nil
 end
