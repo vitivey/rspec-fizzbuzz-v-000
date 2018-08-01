@@ -5,10 +5,10 @@
 def fizzbuzz(number)
   #binding.pry
   if number==3
-    then "Fizz"
+    then return "Fizz"
   elsif number==5
-    then "Buzz"
+    then return "Buzz"
   elsif number==15
-    then "FizzBuzz"
-  else number
+    then return "FizzBuzz"
+  else return number
 end
