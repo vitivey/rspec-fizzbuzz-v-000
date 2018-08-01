@@ -5,11 +5,11 @@
 def fizzbuzz(number)
   #binding.pry
   if number == 3
-    then puts "Fizz"
+    then "Fizz"
   elsif number == 5
-    then puts "Buzz"
+    then "Buzz"
   elsif number == 15
-    then puts "FizzBuzz"
+    then return "FizzBuzz"
   else
     nil
   end
